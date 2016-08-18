@@ -41,8 +41,10 @@ public:
 	{
 		return nodes[0];
 	}
+
+
 private:
 tree_node* nodes[6];
 	
-}
+};
 #endif

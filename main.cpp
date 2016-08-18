@@ -1,9 +1,10 @@
 #include<iostream>
-#include<stack>
-#include"../b_tree.hpp"
-#include"../dfs_recursive.hpp"
-
 using namespace std;
+
+#include<stack>
+#include"b_tree.hpp"
+#include"dfs_recursive.hpp"
+
 
 
 int main()
@@ -26,7 +27,7 @@ int main()
 		}
 	}
 */
-	tree T
+	tree T;
 	dfs_recursive(T.head());
 //	cout<<nodes[5]->val<<endl;
 	return 0;
