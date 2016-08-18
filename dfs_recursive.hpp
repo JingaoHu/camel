@@ -7,9 +7,10 @@ void dfs_recursive(tree_node* head)
 		return ;
 	
 	dfs_recursive(head->l_child);
+	cout<<head->val<<endl;
 	dfs_recursive(head->r_child);
 
-	cout<<head->val<<endl;
+	
 	return ;
 }
 
