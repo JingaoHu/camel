@@ -1,7 +1,7 @@
 #ifndef B_TREE
 #define B_TREE
 
-strut tree_node
+struct tree_node
 {
 	int val;
 	bool state;
