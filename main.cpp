@@ -14,22 +14,22 @@ int main(int argc,char *argv[])
 	int len;
 	len=atoi(argv[1]);
 	int a[len];
-/*
+
 	cout<<"bubble sorting..."<<endl;
 	srand(0);
-	gen_list(a,len,0,100000);
+	gen_list(a,len,0,10000);
 	bubble_sort(a,len);
 	cout<<"done!"<<endl;
-*/
+
 	cout<<"quick sorting..."<<endl;
 	srand(0);
-	gen_list(a,len,0,100000);
+	gen_list(a,len,0,10000);
 	quick_sort(a,0,len-1);
 	cout<<"quick sort done!"<<endl;
 
 	cout<<"merge sorting..."<<endl;
 	srand(0);
-	gen_list(a,len,0,100000);
+	gen_list(a,len,0,10000);
 	merge_sort(a,0,len-1);
 	cout<<"merge sort done!"<<endl;
 
