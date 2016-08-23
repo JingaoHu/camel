@@ -6,8 +6,8 @@
 
 
 
-#ifndef GEN_LIST
-#define GEN_LIST
+#ifndef GEN_ARRAY
+#define GEN_ARRAY
 
 #include<stdlib.h>
 void gen_array(int a[],int len,int min,int max)
