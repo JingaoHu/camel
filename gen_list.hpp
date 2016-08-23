@@ -9,7 +9,7 @@ void gen_list(int a[],int len,int min,int max)
 	{
 		a[i]=(rand()%(max-min))+min;
 	}
-	return 0;
+	return ;
 }
 
 #endif
