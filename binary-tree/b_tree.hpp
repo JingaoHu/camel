@@ -1,3 +1,9 @@
+
+//-----------------------------------------------------
+//  function: define the tree node and a tree 
+//  written by JingaoHu
+//-----------------------------------------------------
+
 #ifndef B_TREE
 #define B_TREE
 
