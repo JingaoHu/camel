@@ -1,6 +1,9 @@
-#define parent(i) ((i-1)>>2)
-#define left(i) ((i<<1)+1)
-#define right(i) ((i<<1)+2)
+#ifndef HEAP_SORT
+#define HEAP_SORT
+
+#define PARENT(i) ((i-1)>>2)
+#define LEFT(i)   ((i<<1)+1)
+#define RIGHT(i)  ((i<<1)+2)
 
 inline void swap(int &a, int &b)
 {
@@ -46,3 +49,5 @@ void heap_sort(int a[],int len)
 	}
 	return ;
 }
+
+#endif
